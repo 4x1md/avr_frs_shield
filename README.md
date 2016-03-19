@@ -26,7 +26,7 @@ The PCB was designed using KiCAD software. As it was meant to be produced at hom
 ![AVR Fuse Rescue Shield Schematics](https://raw.githubusercontent.com/4z7dtf/avr_frs_shield/master/images/3d_pcb_1.png)
 
 ### Copper side
-Print version: [avr_frs-pcb.pdf](https://github.com/4z7dtf/avr_frs_shield/blob/master/printable/avr_frs-pcb.pdf)
+Print version: [avr_frs_pcb.pdf](https://github.com/4z7dtf/avr_frs_shield/blob/master/printable/avr_frs_pcb.pdf)
 
 ![AVR Fuse Rescue Shield Schematics](https://raw.githubusercontent.com/4z7dtf/avr_frs_shield/master/images/pcb_bw.png)
 
