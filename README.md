@@ -6,7 +6,7 @@ While working on a new prototype for my [GPS module for Yaesu VX-8DR/DE transcei
 
 I needed the device for recovering ATmega328P chips. It is compatible with other ATmega's, but you have to check the compatibility before you try. This shield uses high voltage which may damage your microcontroller.
 
-## Sechematics
+## Schematics
 The schematics are almost the same as the original MightyOhm's. Two minor changes are:
 
 1. Zener diode for getting 12V from unregulated power supply.
