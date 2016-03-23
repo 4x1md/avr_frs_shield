@@ -2,9 +2,9 @@
 AVR Fuse Rescue Shield based on [Arduino-based AVR High Voltage Programmer](http://mightyohm.com/blog/2008/09/arduino-based-avr-high-voltage-programmer/) by Jeff Keyzer W6OHM aka [@mightyohm](https://twitter.com/mightyohm).
 
 ## Overview
-While working on a new prototype for my [GPS module for Yaesu VX-8DR/DE transceivers](https://github.com/4z7dtf/vx8_gps), I made some newbie errors burning incorrect fuses into the ATmega328P microcontroller and bricked them. After some research I found [MightyOhm's High Voltage Programmer](http://mightyohm.com/blog/2008/09/arduino-based-avr-high-voltage-programmer/) which could bring them back to life. His programmer was designed as Arduino shield thus I could use the Arduino Uno board I already had. In my project I used MightOhm's schematics with minor changes and his Arduino code as is.
+While working on a new prototype for my [GPS module for Yaesu VX-8DR/DE transceivers](https://github.com/4z7dtf/vx8_gps), I made some newbie errors burning incorrect fuses into ATmega328P microcontrollers and bricked them. After some research I found [MightyOhm's High Voltage Programmer](http://mightyohm.com/blog/2008/09/arduino-based-avr-high-voltage-programmer/) which could bring them back to life. His programmer was designed as Arduino shield thus I could use the Arduino Uno board I already had. In my project I used MightOhm's schematics with minor changes and his Arduino code as is.
 
-I needed the device for recovering ATmega328P chips. It is compatible with other ATmega's, but you have to check the compatibility before you try. This shield uses high voltage which may damage your microcontroller.
+I made this device for recovering ATmega328P chips. It may be compatible with other ATmega's, but you have to check the compatibility before you try. This shield uses high voltage which may damage your microcontroller.
 
 ## Schematics
 The schematics are almost the same as the original MightyOhm's. Two minor changes are:
