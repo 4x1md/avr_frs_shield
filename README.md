@@ -2,7 +2,7 @@
 AVR Fuse Rescue Shield based on [Arduino-based AVR High Voltage Programmer](http://mightyohm.com/blog/2008/09/arduino-based-avr-high-voltage-programmer/) by Jeff Keyzer W6OHM aka [@mightyohm](https://twitter.com/mightyohm).
 
 ## Overview
-While working on a new prototype for my [GPS module for Yaesu VX-8DR/DE transceivers](https://github.com/4x5dm/vx8_gps), I made some newbie errors burning incorrect fuses into ATmega328P microcontrollers and bricked them. After some research I found [MightyOhm's High Voltage Programmer](http://mightyohm.com/blog/2008/09/arduino-based-avr-high-voltage-programmer/) which could bring them back to life. His programmer was designed as Arduino shield thus I could use the Arduino Uno board I already had. In my project I used MightOhm's schematics with minor changes and his Arduino code as is.
+While working on a new prototype for my [GPS module for Yaesu VX-8DR/DE transceivers](https://github.com/4x1md/vx8_gps), I made some newbie errors burning incorrect fuses into ATmega328P microcontrollers and bricked them. After some research I found [MightyOhm's High Voltage Programmer](http://mightyohm.com/blog/2008/09/arduino-based-avr-high-voltage-programmer/) which could bring them back to life. His programmer was designed as Arduino shield thus I could use the Arduino Uno board I already had. In my project I used MightOhm's schematics with minor changes and his Arduino code as is.
 
 I made this device for recovering ATmega328P chips. It may be compatible with other ATmega's, but you have to check the compatibility before you try. This shield uses high voltage which may damage your microcontroller.
 
@@ -14,29 +14,29 @@ The schematics are almost the same as the original MightyOhm's. Two minor change
 
 The shield requires external power supply of 12 to 16V. Unregulated power source will work fine.
 
-![AVR Fuse Rescue Shield Schematics](https://raw.githubusercontent.com/4x5dm/avr_frs_shield/master/images/schematic.png)
+![AVR Fuse Rescue Shield Schematics](https://raw.githubusercontent.com/4x1md/avr_frs_shield/master/images/schematic.png)
 
 ## PCB Design
 The PCB was designed using KiCAD software. As it was meant to be produced at home I designed it as single layer board. There are some front side tracks in the design which were replaced by jumper wires in the real PCB. Toner Transfer method was used to transfer the drawings to copper and front side.
 
-![AVR Fuse Rescue Shield Schematics](https://raw.githubusercontent.com/4x5dm/avr_frs_shield/master/images/pcb_color.png)
+![AVR Fuse Rescue Shield Schematics](https://raw.githubusercontent.com/4x1md/avr_frs_shield/master/images/pcb_color.png)
 
-![AVR Fuse Rescue Shield Schematics](https://raw.githubusercontent.com/4x5dm/avr_frs_shield/master/images/3d_pcb_0.png)
+![AVR Fuse Rescue Shield Schematics](https://raw.githubusercontent.com/4x1md/avr_frs_shield/master/images/3d_pcb_0.png)
 
-![AVR Fuse Rescue Shield Schematics](https://raw.githubusercontent.com/4x5dm/avr_frs_shield/master/images/3d_pcb_1.png)
+![AVR Fuse Rescue Shield Schematics](https://raw.githubusercontent.com/4x1md/avr_frs_shield/master/images/3d_pcb_1.png)
 
 ### Copper side
-Print version: [avr_frs_pcb.pdf](https://github.com/4x5dm/avr_frs_shield/blob/master/printable/avr_frs_pcb.pdf)
+Print version: [avr_frs_pcb.pdf](https://github.com/4x1md/avr_frs_shield/blob/master/printable/avr_frs_pcb.pdf)
 
-![AVR Fuse Rescue Shield Schematics](https://raw.githubusercontent.com/4x5dm/avr_frs_shield/master/images/pcb_bw.png)
+![AVR Fuse Rescue Shield Schematics](https://raw.githubusercontent.com/4x1md/avr_frs_shield/master/images/pcb_bw.png)
 
 ### Silk screen
-Print version: [avr_frs-silk.pdf](https://github.com/4x5dm/avr_frs_shield/blob/master/printable/avr_frs-silk.pdf)
+Print version: [avr_frs-silk.pdf](https://github.com/4x1md/avr_frs_shield/blob/master/printable/avr_frs-silk.pdf)
 
-![AVR Fuse Rescue Shield Schematics](https://raw.githubusercontent.com/4x5dm/avr_frs_shield/master/images/pcb_silk.png)
+![AVR Fuse Rescue Shield Schematics](https://raw.githubusercontent.com/4x1md/avr_frs_shield/master/images/pcb_silk.png)
 
 ## Software
-MightyOhm's original [Arduino code](https://github.com/4x5dm/avr_frs_shield/tree/master/avr_frs_arduino) is used without any modifications.
+MightyOhm's original [Arduino code](https://github.com/4x1md/avr_frs_shield/tree/master/avr_frs_arduino) is used without any modifications.
 
 ## Alignment
 Correctly assembled device requires no alignment.
@@ -53,13 +53,13 @@ Correctly assembled device requires no alignment.
 
 ## Photos
 
-![AVR Fuse Rescue Shield](https://raw.githubusercontent.com/4x5dm/avr_frs_shield/master/images/avr_frs_pcb.jpg)
+![AVR Fuse Rescue Shield](https://raw.githubusercontent.com/4x1md/avr_frs_shield/master/images/avr_frs_pcb.jpg)
 
-![AVR Fuse Rescue Shield](https://raw.githubusercontent.com/4x5dm/avr_frs_shield/master/images/avr_frs_silk.jpg)
+![AVR Fuse Rescue Shield](https://raw.githubusercontent.com/4x1md/avr_frs_shield/master/images/avr_frs_silk.jpg)
 
-![AVR Fuse Rescue Shield](https://raw.githubusercontent.com/4x5dm/avr_frs_shield/master/images/avr_frs_top.jpg)
+![AVR Fuse Rescue Shield](https://raw.githubusercontent.com/4x1md/avr_frs_shield/master/images/avr_frs_top.jpg)
 
-![AVR Fuse Rescue Shield](https://raw.githubusercontent.com/4x5dm/avr_frs_shield/master/images/avr_frs_shield.jpg)
+![AVR Fuse Rescue Shield](https://raw.githubusercontent.com/4x1md/avr_frs_shield/master/images/avr_frs_shield.jpg)
 
 ## Sources
 1. [Arduino-based AVR High Voltage Programmer](http://mightyohm.com/blog/2008/09/arduino-based-avr-high-voltage-programmer/)
@@ -69,6 +69,8 @@ Correctly assembled device requires no alignment.
 ## Questions? Suggestions?
 You are more than welcome to contact me with any questions, suggestions or propositions regarding this project. You can:
 
-1. Visit [my QRZ.COM page](https://www.qrz.com/db/4X5DM)
+1. Visit [my QRZ.COM page](https://www.qrz.com/db/4X1MD)
 2. Visit [my Facebook profile](https://www.facebook.com/Dima.Meln)
 3. Write me an email to iosaaris =at= gmail dot com
+
+73 de 4X1MD
