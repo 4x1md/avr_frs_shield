@@ -1,0 +1,6 @@
+# Languages detection
+# KiCAD
+*.kicad_pcb linguist-detectable=true
+*.sch linguist-detectable=true
+# Arduino
+*.ino linguist-detectable=true
