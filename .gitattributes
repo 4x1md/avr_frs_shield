@@ -3,4 +3,4 @@
 *.kicad_pcb linguist-detectable=true
 *.sch linguist-detectable=true
 # Arduino
-*.ino linguist-detectable=true
+avr_frs_arduino/* linguist-detectable=true
